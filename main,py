@@ -1,0 +1,8 @@
+class Account:
+    def __init__(self, owner, acc_no, balance):
+        self.owner = owner
+        self.acc_no = acc_no
+        self.balance = balance
+        self.loan_balance = 0   # 0 means no loan taken yet
+        self.loan_date = None
+        self.loan_deadline = None
