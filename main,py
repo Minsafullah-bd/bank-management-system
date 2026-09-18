@@ -10,4 +10,13 @@ def deposit(self, amount):
         else:
             self.balance = self.balance + amount
             print(amount, "deposited. New balance:", self.balance)
+        
+def withdraw(self, amount):
+       if amount <= 0:
+           print("Invalid amount!")
+       elif amount > self.balance:
+           print("Insufficient balance!")
+       else:
+           self.balance = self.balance - amount
+           print(amount, "withdrawn. New balance:", self.balance)
    
