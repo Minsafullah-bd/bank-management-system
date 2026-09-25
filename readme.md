@@ -1,2 +1,2 @@
-Project Name -- Doodle app
+Project Name -- bank management system
 my name is mm
